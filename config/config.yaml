@@ -1,0 +1,21 @@
+feature_store:
+  group_name: aqi_features
+  version: 1
+  primary_key: dt_readable
+  description: "Hourly engineered AQI features for Sukkur, OpenWeather-based"
+
+model_registry:
+  model_name: aqi_model
+  version: 1
+  description: "RandomForestRegressor trained on aqi_features v1 data"
+  target_column: aqi
+
+data_paths:
+  raw: data/raw_data.csv
+  cleaned: data/cleaned_data.csv
+
+openweather:
+  lat: 27.7244
+  lon: 68.8228
+
+city: Sukkur
