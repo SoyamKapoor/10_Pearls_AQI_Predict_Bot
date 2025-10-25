@@ -1,9 +1,9 @@
 streamlit
-joblib
 pandas
 numpy
 scikit-learn
-hopsworks
+hopsworks[python]
+confluent-kafka
 requests
 python-dotenv
 matplotlib
@@ -11,3 +11,6 @@ seaborn
 shap
 pyyaml
 tqdm
+joblib
+streamlit
+plotly
