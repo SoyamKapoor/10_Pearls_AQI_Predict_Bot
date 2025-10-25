@@ -1,7 +1,13 @@
-pandas
-scikit-learn
-requests
 streamlit
-shap
 joblib
+pandas
+numpy
+scikit-learn
+hopsworks
+requests
 python-dotenv
+matplotlib
+seaborn
+shap
+pyyaml
+tqdm
