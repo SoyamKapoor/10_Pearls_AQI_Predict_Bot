@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from datetime import datetime
 from utils import print_banner, load_config
 
+
 def compute_features():
     print_banner()
 
@@ -93,6 +94,26 @@ def compute_features():
         primary_key=[primary_key],
         online_enabled=True
     )
+
+    # ✅ FIX: Explicitly convert data types to match Hopsworks schema
+    print("Converting data types for Hopsworks compatibility...")
+    
+    # Convert numeric columns that should be float
+    float_cols = ['dt', 'no', 'no2', 'o3', 'so2', 'co', 'pm2_5', 'pm10', 'nh3', 'aqi']
+    for col in float_cols:
+        if col in df.columns:
+            df[col] = df[col].astype('float64')
+    
+    # Convert rolling average columns to float
+    for col in df.columns:
+        if 'rolling' in col:
+            df[col] = df[col].astype('float64')
+    
+    # Convert integer columns
+    int_cols = ['is_weekend', 'hour', 'month', 'year']
+    for col in int_cols:
+        if col in df.columns:
+            df[col] = df[col].astype('int32')
 
     print("Uploading dataset to Hopsworks Feature Store...")
     fg.insert(df)
