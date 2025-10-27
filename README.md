@@ -4,11 +4,9 @@ A real-time **Air Quality Index (AQI) prediction and monitoring dashboard** for 
 
 ## 🎬 Demo Video
 
-Watch the full project demo below:
+[![AQI Dashboard Demo](https://github.com/yourusername/10_Pearls_AQI_Predict_Bot/assets/987654321/demo_thumbnail.png)](https://github.com/yourusername/10_Pearls_AQI_Predict_Bot/assets/123456789/demo.mp4)
 
-![AQI Dashboard Demo](https://github.com/user-attachments/assets/c9afab24-484c-4716-9c3e-27acb406b93e)
-
-> Demonstration of real-time AQI tracking, pollutant visualization, and 3-day forecasting for Sukkur, Pakistan.
+> 🎥 Click the thumbnail above to watch the full demo showcasing real-time AQI tracking, pollutant visualization, and 3-day forecasting for Sukkur, Pakistan.
 
 ---
 
@@ -83,4 +81,5 @@ Built and maintained by [Soyam Kapoor].
 > Developed as part of the **10 Pearls AQI Prediction project** — for educational and demonstration purposes.
 
 ---
+
 
