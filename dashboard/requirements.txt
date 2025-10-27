@@ -1,3 +1,9 @@
 streamlit
 pandas
+plotly
+hopsworks[python]
+confluent-kafka
 joblib
+python-dotenv
+numpy
+scikit-learn
