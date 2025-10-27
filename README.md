@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # 🌍 AQI Prediction Dashboard
 
 A real-time **Air Quality Index (AQI) prediction and monitoring dashboard** for **Sukkur, Pakistan**, built using **Streamlit**, **Hopsworks Feature Store**, **Machine Learning**, and the **OpenWeather API**.
@@ -82,6 +81,7 @@ Built and maintained by [Soyam Kapoor].
 > Developed as part of the **10 Pearls AQI Prediction project** — for educational and demonstration purposes.
 
 ---
+
 
 
 
