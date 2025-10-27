@@ -1,9 +1,16 @@
 {
     "model_name": "Random Forest",
+<<<<<<< Updated upstream
     "MAE": 0.0022657042106521575,
     "RMSE": 0.009423483087643581,
     "R\u00b2": 0.9998870937535338,
     "accuracy_percentage": 99.98870937535338,
+=======
+    "MAE": 0.0019390694294622072,
+    "RMSE": 0.008358277918803749,
+    "R\u00b2": 0.9999096280153054,
+    "accuracy_percentage": 99.99096280153054,
+>>>>>>> Stashed changes
     "n_estimators": 200,
     "features": [
         "dt",
@@ -50,5 +57,9 @@
         "aqi_rolling6",
         "aqi_rolling12"
     ],
+<<<<<<< Updated upstream
     "trained_at": "2025-10-27T03:17:56.613072"
+=======
+    "trained_at": "2025-10-25T06:06:41.380795"
+>>>>>>> Stashed changes
 }
