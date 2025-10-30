@@ -107,7 +107,7 @@ body, html, [class*="st-"]  {
 @st.cache_resource
 def load_model():
     try:
-        return joblib.load('best_aqi_model.pkl')
+        return joblib.load('models/best_model.pkl')
     except Exception as e:
         st.error(f"⚠️ Error loading model: {e}")
         return None
@@ -144,7 +144,7 @@ def get_aqi_category(aqi):
 def predict_future(model, df, days=3):
     predictions = []
     try:
-        with open('models/best_aqi_model_metadata.json', 'r') as f:
+        with open('models/best_model_metadata.json', 'r') as f:
             training_features = json.load(f)['features']
     except:
         st.error("Could not load model metadata")

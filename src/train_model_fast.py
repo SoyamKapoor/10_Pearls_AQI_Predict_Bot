@@ -92,7 +92,7 @@ def train_best_model():
 
     # --- Save the model locally ---
     os.makedirs("models", exist_ok=True)
-    model_path = "models/best_model.pkl"
+    model_path = "models/best_aqi_model.pkl"
     joblib.dump(model, model_path)
     
     # --- Save metadata ---
@@ -106,7 +106,7 @@ def train_best_model():
         "features": list(X.columns),
         "trained_at": pd.Timestamp.now().isoformat()
     }
-    metadata_path = "models/best_model_metadata.json"
+    metadata_path = "models/best_aqi_model_metadata.json"
     with open(metadata_path, 'w') as f:
         json.dump(metadata, f, indent=4)
 
