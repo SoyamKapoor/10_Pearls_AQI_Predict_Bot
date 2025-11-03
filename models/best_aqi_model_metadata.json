@@ -1,8 +1,10 @@
 {
     "model_name": "Random Forest",
-    "MAE": 0.002266516019988624,
-    "RMSE": 0.009329127345129676,
-    "R\u00b2": 0.9998916054700431,
+    "MAE": 0.001972185576077795,
+    "RMSE": 0.008027626611007243,
+    "R\u00b2": 0.9999191675628876,
+    "accuracy_percentage": 99.99191675628876,
+    "n_estimators": 200,
     "features": [
         "dt",
         "coord_lat",
@@ -47,5 +49,6 @@
         "aqi_rolling3",
         "aqi_rolling6",
         "aqi_rolling12"
-    ]
+    ],
+    "trained_at": "2025-11-03T03:15:25.525837"
 }
