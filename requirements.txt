@@ -1,7 +1,7 @@
 pandas
 numpy
 scikit-learn
-hopsworks[python]
+hopsworks[python]==4.2.10
 confluent-kafka
 requests
 python-dotenv
