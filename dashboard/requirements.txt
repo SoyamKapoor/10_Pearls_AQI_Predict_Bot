@@ -1,7 +1,7 @@
 streamlit
 pandas
 plotly
-hopsworks[python]
+hopsworks[python]==4.2.10
 confluent-kafka
 joblib
 python-dotenv
